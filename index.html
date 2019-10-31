@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Eric Knop</title>
-		<!-- Link to main stylesheet -->
-		<link rel = "stylesheet" type = "text/css" href = "/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Eric Knop, Data Scientist</h1>
-				<p>I'm a student at the <em>University of New Hampshire.</em> This is my portfolio page. <a href="/about">Find out more about me here.</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:ejk1024@wildcats.unh.edu">email</a></li>
-        		<li><a href="https://github.com/EricKnop">github.com/EricKnop</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+title: Eric Knop's Blog
+---
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
