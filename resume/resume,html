@@ -1,0 +1,8 @@
+---
+layout: default
+title: Resume
+---
+<div class="blurb">
+        <h1>Eric Knop, Data Scientist</h1>
+	<p>I'm a student at the <em>University of New Hampshire.</em> This is my portfolio page. <a href="/about">Find out more about me here.</a></p>
+</div><!-- /.blurb -->
