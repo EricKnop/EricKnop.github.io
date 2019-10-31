@@ -9,7 +9,7 @@ Over the past week, I have been working on web scraping the U-Haul website. The 
 
 To scrape the U-Haul website I first had to get a list of the US cities. So I found a Wikipedia table that had a list of all US cites with basic statistics of them including latitude and longitude and population and I scraped it and re-formatted it to my liking. 
 
-The current r notebook has the top 10 most populated cites in America and rotates between each combination of them to grab the price of the 10 foot U-Haul van. The reason there is only 10 cites and not all of them is due to U-Haul's website, which would kick me out after around 100 iterations. I have been trying to learn how to rotate my ip address to avoid getting kicked but I have not been successful so far. 
+The current R notebook has the top 10 most populated cites in America and rotates between each combination of them to grab the price of the 10 foot U-Haul van. The reason there is only 10 cites and not all of them is due to U-Haul's website, which would kick me out after around 100 iterations. I have been trying to learn how to rotate my ip address to avoid getting kicked but I have not been successful so far. 
 
 The link <a href="https://public.tableau.com/views/webscrapinguhaulprices/Dashboard1?:display_count=y&:origin=viz_share_link">here</a>  is a interactive tableau dashboard which shows the top 15 routes with the largest price differences. The R program <a href="https://github.com/EricKnop/U-Haul-Web-Scraping">here</a> is posted on my GitHub page and it has interactive map also where the user can pick two cites out of the top 10 most populated cites in America and see the price difference. 
 
