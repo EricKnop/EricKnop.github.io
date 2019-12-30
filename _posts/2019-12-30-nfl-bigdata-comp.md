@@ -4,6 +4,7 @@ title: "NFL Big Data Comp 2 Post"
 date: 2019-12-30
 ---
 Happy Holidays!
+The link to the code is <a href="https://github.com/EricKnop/NFL-Big-Data-Bowl">here</a> and the link to the kaggle is <a href = "https://www.kaggle.com/c/nfl-big-data-bowl-2020/overview/description"> here.</a>
 My goal with the data was to convert as many categorical columns to numeric and binary columns as possible. The reason behind this is to 
 not run into curse of dimensionality problems, along with in order to run a XGBoost model all the data must be one hot encoded. One hot 
 encoding categorical variables that have more than 10 unique categories can lead to sparsity in my dataset, which can lead to bad models. 
