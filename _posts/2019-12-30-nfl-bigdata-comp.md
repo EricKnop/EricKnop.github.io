@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NFL Big Data Comp 2 Post"
+title: "NFL Big Data Bowl Post"
 date: 2019-12-30
 ---
 Happy Holidays!
